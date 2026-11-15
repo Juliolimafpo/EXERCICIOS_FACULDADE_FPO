@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", "Helvetica Neue", sans-serif;
+  background-color: rgb(236, 233, 229);
+}
+
+.FormContainer h1 {
+  color: #444;
+  margin-bottom: 5px;
+}
+.FormContainer p {
+  color: #909090f7;
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+}
+div {
+  display: flex;
+  justify-content: start;
+  align-items: stretch;
+  flex-direction: column;
+  gap: 16px;
+}
+form {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: start;
+  margin: 0;
+}
+
+.Btn-Cadastrar {
+  width: 100%;
+  background-color: #007bff;
+  padding: 1rem;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.Btn-Cadastrar:hover {
+  background-color: #0364cb;
+}
+
+#nome {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+#email {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+#senha {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+div,
+label {
+  color: #444;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+#nome:hover {
+  border-color: #007bff;
+}
+#email:hover {
+  border-color: #007bff;
+}
+#senha:hover {
+  border-color: #007bff;
+}
+#nome:focus {
+  border-color: #007bff;
+  outline: none;
+}
+#email:focus {
+  border-color: #007bff;
+  outline: none;
+}
+#senha:focus {
+  border-color: #007bff;
+  outline: none;
+}
